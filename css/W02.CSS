@@ -130,13 +130,10 @@ table {
 
 /* Start Here */
 
+body {
+	font-family: '微軟正黑體', Verdana, sans-serif;
+}
 
-@font-face {
-    font-family: "Bitstream Vera Serif Bold";
-    src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
-  }
-  
-  body { font-family: "Bitstream Vera Serif Bold", serif }
 
 .main {
   border: 3px solid red;
