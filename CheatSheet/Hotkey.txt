@@ -1,0 +1,60 @@
+
+基礎
+    Ctrl+X      剪下
+    Ctrl+C      複製
+    Alt+ 1 /! 移動當前上/下行
+    Shift+Alt + ! / 1 將行向上複製
+    Ctrl+Shift+K    刪除行 <======
+    在下方插入行 Ctrl+Enter
+    在上方插入一行 Ctrl+Shift+ Enter
+    Ctrl+Shift+1 移至方括弧
+    Ctrl+] /[   縮排行
+    Home / End 移至行首或行尾
+    Ctrl+Home   移至上一個檔案
+    Ctrl+End    移至下一個檔案
+    向上/下移動 Ctrl+1 /
+    Alt+PgUp / PgDn 向上/下捲動
+    Ctrl+Shift+[     摺疊
+    Ctrl+Shift+]    展開
+    Ctrl+K Ctrl+[ 以遞迴方式折疊
+    Ctrl+K Ctrl+] 以遞迴方式展開
+    Ctrl+K Ctrl+0 全部展開
+    Ctrl+K Ctrl+J 全部展開
+    Ctrl+KCtrl+C 加入行註解
+    Ctrl+K Ctrl+U 移除行註解
+    Ctrl+/ 切換行註解
+    切換區塊註解 Shift+Alt+A
+    檢視自動換行 Alt+Z
+
+一般
+    Ctrl+Shift+P,    F1 顯示所有命令
+    Ctrl+p 移至檔案...or開啟檔案
+    Ctrl+Shift+N    開新視窗
+    Ctrl+Shift+W    關閉視窗
+    Ctrl+,          開啟設定視窗
+    Ctrl+K Ctrl+S   開啟鍵盤快速鍵
+
+搜尋並替換
+    Ctrl+F  搜尋
+    Ctrl+H  替換
+    F3 / Shift+F3 尋找上/下一個
+    Alt+Enter   選擇所有出現"匹配"
+    Ctrl+D      將選取項目加入下一個找到的相符項
+    Ctrl+K Ctrl+D   將最後一個選擇項移至下一個找到的相符項
+    Alt+C / R/W     切換使用區分大小寫/regex/整個字串尋找
+
+游標&搜尋
+    Alt+Click       插入游標
+    插入游標前/後 Ctrl+Alt+1 /
+    Ctrl+U          取消上一個游標操作
+    Shift+Alt +l    在所選結尾處插入游標
+    Ctrl+L          選取當前行
+    Ctrl+Shift+L 在全部選取的行最後插入游標
+    Ctrl+F2         選取相同單字
+    Shift+Alt +-    增加選取
+    Shift+Alt+1     減少選取
+    Shift+Alt +     列(區塊)選取
+    (drag mouse)
+    Ctrl+Shift+Alt+(arrow key) 列(區塊)選取
+    Ctrl+Shift+Alt+PgUp/PgDn 選取上/下頁面
+   
