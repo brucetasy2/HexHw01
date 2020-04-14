@@ -1,10 +1,13 @@
+emment 
+    https://alrin0000.blogspot.com/2014/05/emmet.html
+
 
 基礎
     Ctrl+X      剪下
     Ctrl+C      複製
     Alt+ 1 /! 移動當前上/下行
     Shift+Alt + ! / 1 將行向上複製
-    Ctrl+Shift+K    刪除行 <======
+                         Ctrl+Shift+K    刪除行 <======
     在下方插入行 Ctrl+Enter
     在上方插入一行 Ctrl+Shift+ Enter
     Ctrl+Shift+1 移至方括弧
