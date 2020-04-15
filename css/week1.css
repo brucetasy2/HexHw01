@@ -128,15 +128,85 @@ table {
   border-spacing: 0;
 }
 
-
 /* Start Here */
+* {
+  box-sizing: border-box;
+}
 
-.main{
-    width: 1920px;
-    border: 2px solid red;
+.main {
+  width: 1920px;
+  border: 2px solid red;
+  margin-left: 360px;
 }
 
 .Name {
   display: block;
+  top: 48px;
+  left: 360px;
+  width: 288px;
+  height: 180px;
+
+  text-align: left;
+  font: Regular 80px/90px Andale Mono;
+  font-size: 80px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.line1 {
+  top: 252px;
+  border: 2px solid #000000;
+  margin-bottom: 48px;
+}
+
+.img1 {
+  border: 2px solid pink;   /* dele when commit */
+  margin-bottom: 48px;
+}
+
+.interduction {
+  border: 2px solid darkblue;   /* dele when commit */
+  display: flex;
+  justify-content: flex;
+  font-size: 32px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.FontBlack{
+  color:#000000;
+  margin-right:16px
+}
+
+.FontBrown{
+  color:#A00404
+}
+
+.intContent{
+ display: flex;
+ justify-content: flex;
+}
+
+.profile{
+  text-align: left;
+  
+}
+
+.profile p{
+  color: #000000;
+  font-size:24px;
+}
+
+
+
+.ShapOfCircle {
+	width: 16px;
+	height: 16px;
+	border: #96a9c4;
+	background-color: #96a9c4;
+	border-radius: 50%;
+	margin-right: 16px;
+	margin-top: 8px;
 }
 

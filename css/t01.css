@@ -1,0 +1,19 @@
+.ribbon {
+  background-color: #5bc8f7;
+}
+
+.ribbon::after {
+  content: "This is a fancy orange box.";
+  background-color: #ffba10;
+  border-color: black;
+  border-style: dotted;
+}
+
+
+.ribbon::before {
+    content: "This is a fancy pink box.";
+    background-color: pink;
+    border-color: black;
+    border-style: dotted;
+  }
+  
