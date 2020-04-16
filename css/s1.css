@@ -251,7 +251,7 @@ img {
 	margin-bottom: 72px;
 }
 .data .circle1:before {
-	content: "";
+	content: "x";
 	position: absolute;
 	width: 1px;
 	height: 60px;
