@@ -244,9 +244,11 @@ img {
 .education .data {
 	margin-bottom: 32px;
 }
+
 .education .data1 {
 	position: relative;
 }
+
 .education .data2 {
 	margin-bottom: 72px;
 }
@@ -260,6 +262,7 @@ img {
 	top: 20px;
 	left: 23px;
 }
+
 .skills {
 	padding: 24px 100px;
 	background-color: #415165;
@@ -267,6 +270,7 @@ img {
     position: relative;
     margin-bottom: 72px;
 }
+
 .skills:before{
     content: "";
     position: absolute;
@@ -315,6 +319,9 @@ img {
 .skills ul li:last-child {
 	line-height: 33px;
 }
+
+
+
 .workexp .title{
     margin-bottom: 30px;
 }
@@ -378,6 +385,9 @@ img {
     line-height: 28px;
     margin-bottom: 72px;
 }
+
+
+
 .footer{
     width: 1920px;
     margin: 0 auto;

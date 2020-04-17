@@ -120,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -161,13 +161,12 @@ table {
 }
 
 .img1 {
-  border: 2px solid pink;   /* dele when commit */
+  border: 2px solid pink; /* dele when commit */
   margin-bottom: 48px;
 }
 
-
 .container {
-  border: 2px solid darkblue;   /* dele when commit */
+  border: 2px solid darkblue; /* dele when commit */
   display: flex;
   justify-content: flex;
   font-size: 32px;
@@ -175,50 +174,47 @@ table {
   font-family: sans-serif;
 }
 
-.areaMB{
+.areaMB {
   margin-bottom: 79px;
 }
 
-.fontBlack{
-  color:#000000;
-  margin-right:16px
+.fontBlack {
+  color: #000000;
+  margin-right: 16px;
 }
 
-.fontBrown{
-  color:#A00404
+.fontBrown {
+  color: #a00404;
 }
-
 
 /* 個資區塊 */
-.intContent{
- display: flex;
- justify-content: flex;
+.intContent {
+  display: flex;
+  justify-content: flex;
 }
 
-.stdFont{
+.stdFont {
   text-align: left;
   color: #000000;
-  font-size:24px;
-  line-height:36px;
+  font-size: 24px;
+  line-height: 36px;
   vertical-align: center;
 }
 
-
 /* 學歷區塊 */
-.education{
+.xeducation {
   display: flex;
   justify-content: flex;
   flex-direction: column;
- }
+}
 
- 
 .shapOfCircle {
-	width: 16px;
-	height: 16px;
-	border: #96a9c4;
-	background-color: #96a9c4;
-	border-radius: 50%;
-	margin-right: 16px;
+  width: 16px;
+  height: 16px;
+  border: #96a9c4;
+  background-color: #96a9c4;
+  border-radius: 50%;
+  margin-right: 16px;
   margin-top: 8px;
 }
 
@@ -233,13 +229,112 @@ table {
 
 /* Add content: \2022 is the CSS Code/unicode for a bullet */
 .pseudoCircle::before {
-  content: "\2022";  
-  color:  #96A9C4; 
+  content: '\2022';
+  color: #96a9c4;
   font-size: 2.5em;
   font-weight: bold;
   vertical-align: middle;
   margin-right: 16px;
 }
 
+.eduDate {
+  display: flex;
+  padding-left: 16px;
+  position: relative;
+}
+
+.line1:before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 60px;
+  display: block;
+  background-color: #96a9c4;
+  top: 20px;
+  left: 23px;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border: #96a9c4;
+  background-color: #96a9c4;
+  border-radius: 50%;
+  margin-right: 16px;
+  margin-top: 8px;
+}
+
+/* skills */
+.skills {
+  top: 1286px;
+  left: 360px;
+  width: 1200px;
+  height: 494px;
+  background: #415165 0% 0% no-repeat padding-box;
+}
+
+.skills:before{
+  content: "";
+  position: absolute;
+  width: 1920px;
+  height: 394px;
+  z-index: -1;
+  background-color: #96a9c4;
+  /* top: 50px; */
+   left:20px;
+}
+
+.skillHeader {
+  border: 1px pink dotted;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  margin-bottom: 72px;
+  padding: 24px 100px;
+}
+
+.skillFontTra {
+  text-align: left;
+  font-size:32px;
+  color: #ffffff;
+  margin-left:250px;
+}
+
+.skillFontEng {
+  text-align: left;
+  font-size: 32px ;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.skills ul {
+	width: 216px;
+	margin: 0 auto;
+	padding-left: 22px;
+	border-left: 1px solid #96a9c4;
+	margin-bottom: 32px;
+}
+
+.skills ul li {
+	font-size: 23px;
+	line-height: 32px;
+	font-family: "Roboto",sans-serif;
+	font-weight: lighter;
+	margin-bottom: 16px;
+}
+
+.skillsLast{
+	line-height: 33px;
+}
+
+/* jobArea */
+.wd-1200 {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.job{
+  margin-bottom: 30px;
+}
 
 
