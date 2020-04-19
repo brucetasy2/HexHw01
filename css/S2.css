@@ -247,7 +247,7 @@ table {
 .work-content:before {
   position: absolute;
   content: "";
-  border-left: 1px solid #96A9C4;
+  border-left: 1px solid deeppink;
   top: 0;
   bottom: 0;
   left: 24px;
