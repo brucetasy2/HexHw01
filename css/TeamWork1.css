@@ -145,17 +145,14 @@ table {
   box-sizing: border-box;
 }
 
-.stdFont {
-  font-family: '蘋方-繁', '微軟正黑體', 'sans-serif', monospace;
-}
+ul {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
-.startChk {
-  width: 1000px;
-  height: 1000px;
-  font-size: 68px;
-  border: 5px solid red;
-  padding: 30px;
-  margin: 30px;
-  background: center;
-  background-color: #759b7f;
+}
+img {
+  display: block;
 }
