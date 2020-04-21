@@ -161,6 +161,7 @@ table {
   margin: 0 auto;
 }
 
+/* 履歷姓名  照片 */
 .resumeName {
   text-align: left;
   font-size: 80px;
@@ -210,7 +211,7 @@ table {
   margin-top: 24px;
 }
 
-.proCotent-mb74 {
+.proCotent-mb66 {
   margin-bottom: 66px;
 }
 
@@ -321,7 +322,7 @@ table {
   padding: 10px 0 10px 0;
 }
 
-.divider-white:after {
+.skillDivider:after {
   position: absolute;
   content: '';
   border-bottom: 1px solid #ffffff;
@@ -487,7 +488,7 @@ table {
   vertical-align:middle;
 }
 
-.divider2:after {
+.contactDivider:after {
   position: absolute;
   content: '';
   border-bottom: 1px solid #ffffff;
