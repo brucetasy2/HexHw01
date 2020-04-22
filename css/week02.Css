@@ -303,14 +303,17 @@ body {
 
 
 
- .main p:before{
+.main span {
+  position: relative;
+}
+
+.main span:before{
   content: '';
   width: 22px;
   height: 22px;
   position: absolute;
-  top: 50%;
-  left: 40%;
+  top: 1px;
+  left:-40px ;
   border-radius: 50%;
   background: #891818;
 } 
-
